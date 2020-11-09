@@ -22,13 +22,17 @@ namespace WEBCORE03
 
         public IConfiguration Configuration { get; }
 
-        // Este método é chamado pelo tempo de execução. Use este método para adicionar serviços ao contêiner.
+        /// <summary>
+        /// Este método é chamado pelo tempo de execução. Use este método para adicionar serviços ao contêiner.
+        /// </summary>
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
-        // Este método é chamado pelo tempo de execução. Use este método para configurar o pipeline de solicitação HTTP.
+        /// <summary>
+        /// Este método é chamado pelo tempo de execução. Use este método para configurar o pipeline de solicitação HTTP.
+        /// </summary>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
