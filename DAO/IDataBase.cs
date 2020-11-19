@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    interface IDataBase
+    public interface IDataBase
     {
+
     }
 }

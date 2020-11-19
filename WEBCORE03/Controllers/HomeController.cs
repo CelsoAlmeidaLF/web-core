@@ -8,10 +8,17 @@ namespace API.Controllers
 {
     public class HomeController : Controller
     {
-        [HttpGet]
-        public IActionResult Index()
+
+        // IHttpActionResult
+
+        /// <summary>
+        /// Pagina inicial
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("api/systekna")]
+        public IActionResult Get ()
         {
-            return View();
+            return Ok("Hello");
         }
     }
 }

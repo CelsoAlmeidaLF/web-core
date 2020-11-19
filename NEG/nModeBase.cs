@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace NEG
 {
-    class nModeBase
+    public class nModeBase
     {
+
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class dModeBase
+    public class dModeBase
     {
+
     }
 }
