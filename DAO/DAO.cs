@@ -10,11 +10,11 @@ namespace DAL
 
         public DAL()
         {
-            conString = $@"Data Source=CELSO-PC; 
-                        Initial Catalog=DBSYSTEKNA; 
+            conString = $@"Data Source=srv1; 
+                        Initial Catalog=bd_xxxx; 
                         Persist Security Info=True; 
-                        User ID=ADMIN_CELSO; 
-                        Password=35316Ji@852";
+                        User ID=user; 
+                        Password=pass";
 
             conn = new SqlConnection(conString);
         }

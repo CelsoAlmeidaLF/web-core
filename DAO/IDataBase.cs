@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    public interface IDataBase
+    public interface IDataBase<T>
     {
-
+        IEnumerable<T> GetList();
+        T Get();
+        bool Set();
+        T SetObject(object obj);
+        bool Del();
     }
 }

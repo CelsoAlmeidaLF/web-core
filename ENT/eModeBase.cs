@@ -8,6 +8,6 @@ namespace ENT
 {
     public class eModeBase
     {
-
+        public int Id { get; set; }
     }
 }
