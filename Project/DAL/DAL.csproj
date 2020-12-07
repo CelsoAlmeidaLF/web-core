@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO.cs" />
-    <Compile Include="IDataBase.cs" />
+    <Compile Include="Basse\DAO.cs" />
+    <Compile Include="Basse\IDataBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
