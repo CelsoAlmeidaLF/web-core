@@ -15,7 +15,7 @@ namespace API.Controllers
         /// Pagina inicial
         /// </summary>
         /// <returns></returns>
-        [HttpGet("api/systekna")]
+        [HttpGet("api")]
         public IActionResult Get ()
         {
             return Ok("Hello");
